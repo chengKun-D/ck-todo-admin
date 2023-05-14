@@ -19,5 +19,5 @@ const props = defineProps({
 	}
 })
 
-const dataList = getDictDataList(store.appStore.dictList, props.dictType)
+const dataList = getDictDataList(store.appStore.dictList, <string>props.dictType)
 </script>
